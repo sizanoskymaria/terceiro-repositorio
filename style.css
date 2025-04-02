@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
     --cor-principal: #88d2ff;
@@ -7,12 +7,46 @@
     --cor3: #ff00a6;
     --preto: #000000;
     --branco: #FFFFFF;
+    --cor4: #ff7f08;
 }
 
 body {
     font-size: 1rem;
-    font-family: 'Montserrat'; /*o nome da sua fonte*/
+    font-family: 'Winky Sans'; /*o nome da sua fonte*/
 }
+
+section{
+    padding-bottom: 5rem;
+}
+
+.display-4{
+    text-shadow: -5px 5px var(--cor4);
+}
+
+#circoescola {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--cor1);
+    background-size: 180px 180px;
+}
+
+#circoescola .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
 
 #contato {
     background: var(--cor-principal);

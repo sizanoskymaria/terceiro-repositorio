@@ -23,10 +23,6 @@ header {
     background-color: var(--branco);
 }
 
-.nav-imagem {
-   
-}
-
 .nav-link {
     color: var(--cor1);
     font-weight: 600;
